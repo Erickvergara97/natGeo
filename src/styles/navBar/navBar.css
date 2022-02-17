@@ -67,7 +67,15 @@
   width: auto;
 }
 
-.navBarContainer .menuContainer .hideContent {
+.navBarContainer .menuContainer .hideMobile {
   display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .navBarContainer .menuContainer .hideMobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 /*# sourceMappingURL=navBar.css.map */
