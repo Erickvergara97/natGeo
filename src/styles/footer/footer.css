@@ -1,0 +1,59 @@
+.footerContainer {
+  padding: 0 20px;
+}
+
+.footerContainer .sectionsContainer {
+  color: #ffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: left;
+  padding: 33px 0;
+  font-size: 12px;
+}
+
+.footerContainer .sectionsContainer section {
+  width: 25%;
+  padding-right: 15px;
+}
+
+.footerContainer .sectionsContainer section button {
+  margin-right: 10px;
+}
+
+.footerContainer .sectionsContainer section .followUsButtons .facebookButton {
+  background-color: white;
+}
+
+.footerContainer .sectionsContainer section .followUsButtons .twitterButton {
+  background-color: white;
+}
+
+.footerContainer .sectionsContainer section .followUsButtons .instagramButton {
+  background-color: white;
+}
+
+.footerContainer .sectionsContainer a {
+  color: #ffff;
+}
+
+.footerContainer .sectionsContainer h4 {
+  margin: 0 0 17px;
+}
+
+.footerContainer .sectionsContainer li {
+  margin-top: 10px;
+}
+
+.footerContainer .footerLogo {
+  height: 40px;
+  width: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+/*# sourceMappingURL=footer.css.map */

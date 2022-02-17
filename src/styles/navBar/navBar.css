@@ -1,0 +1,73 @@
+.navBarContainer {
+  background-color: #ffff;
+  padding: 0 17px;
+  height: 49px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.navBarContainer img {
+  height: 32px;
+  width: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navBarContainer .menuContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navBarContainer .menuContainer li:not(:last-child) {
+  margin-right: 16px;
+}
+
+.navBarContainer .menuContainer a {
+  color: #000;
+  font-weight: bold;
+}
+
+.navBarContainer .menuContainer .subscribe {
+  background-color: #000;
+  height: 47px;
+  padding: 0 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navBarContainer .menuContainer .subscribe a {
+  color: #ffff;
+}
+
+.navBarContainer .menuContainer .chevron {
+  height: 10px;
+  width: auto;
+}
+
+.navBarContainer .menuContainer .hideContent {
+  display: none;
+}
+/*# sourceMappingURL=navBar.css.map */

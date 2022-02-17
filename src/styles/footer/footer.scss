@@ -1,0 +1,57 @@
+@import "../../assets/colors/colors.scss";
+
+.footerContainer{
+    padding: 0 20px;
+    
+    .sectionsContainer{
+        color: $color-white;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: left;
+        padding: 33px 0;
+        font-size: 12px;
+    
+        section{
+            width: 25%;
+            padding-right: 15px;
+
+            button{
+                margin-right: 10px;
+            }
+
+            .followUsButtons{
+                .facebookButton{
+                    background-color: white;
+                }
+                .twitterButton{
+                    background-color: white;
+                }
+                .instagramButton{
+                    background-color: white;
+                }
+
+            }
+        }
+    
+        a{
+            color: $color-white;
+        }
+        
+        h4{
+            margin: 0 0 17px;
+        }
+    
+        li{
+            margin-top: 10px;
+        };
+    
+    }
+    .footerLogo{
+        height: 40px;
+        width: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    
+}

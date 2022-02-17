@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,mBAAmB,CAAA;EACf,OAAO,EAAE,WAAW;EACpB,SAAS,EAAE,IAAI;EACf,KAAK,ECFI,KAAK;EDGd,UAAU,EAAE,IAAI;CAKnB;;AATD,AAMI,mBANe,CAMf,CAAC,CAAA;EACG,aAAa,EAAE,IAAI;CACtB",
+    "sources": [
+        "copyright.scss",
+        "../../assets/colors/colors.scss"
+    ],
+    "names": [],
+    "file": "copyright.css"
+}
