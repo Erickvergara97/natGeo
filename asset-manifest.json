@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/natgeo/static/css/main.44f35440.css",
+    "main.js": "/natgeo/static/js/main.2938df1c.js",
+    "static/js/787.16907337.chunk.js": "/natgeo/static/js/787.16907337.chunk.js",
+    "static/media/chevron.png": "/natgeo/static/media/chevron.e540d897700ee9ee1314.png",
+    "static/media/united-states.png": "/natgeo/static/media/united-states.348322a7eb6fa906d005.png",
+    "index.html": "/natgeo/index.html",
+    "main.44f35440.css.map": "/natgeo/static/css/main.44f35440.css.map",
+    "main.2938df1c.js.map": "/natgeo/static/js/main.2938df1c.js.map",
+    "787.16907337.chunk.js.map": "/natgeo/static/js/787.16907337.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.44f35440.css",
+    "static/js/main.2938df1c.js"
+  ]
+}
