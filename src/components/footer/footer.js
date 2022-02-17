@@ -1,5 +1,8 @@
 import React from "react";
 import '../../styles/footer/footer.css'
+import {FaInstagram, FaFacebookSquare} from "react-icons/fa"
+import {VscTwitter} from "react-icons/vsc"
+import usa from "../../assets/images/united-states.png"
 
 function Footer() {
     return(
@@ -56,14 +59,15 @@ function Footer() {
                 <section>
                     <h4>FOLOW US</h4>
 
-                    <div className="followUsButtons">
-                        <button className="facebookButton">facebook</button>
-                        <button className="twitterButton">twitter</button>
-                        <button className="instagramButton">instagram</button>
+                    <div >
+                        <FaFacebookSquare className="facebookButton"/>
+                        <VscTwitter className="twitterButton"/>
+                        <FaInstagram className="instagramButton"/>
+                        <div className="countryDesktop"> <img src={usa} alt="USA flag" className="flag"/> United States (Change)</div>
                     </div>
                 </section>
 
-                <section>United States (Change)</section>
+                <section className="countryMobile"> <img src={usa} alt="USA flag" className="flag"/> United States (Change)</section>
             </div>
         </div>
     )

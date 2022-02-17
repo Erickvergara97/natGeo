@@ -1,0 +1,20 @@
+@import "../../assets/colors/colors.scss";
+
+.latestStoriesContainer{
+    background-color: blue;
+    .latestStoriesHeader{
+        span{
+            a{
+                color: black;
+            }
+        }
+
+        .line{
+            background-color: #fc0;
+            height: 4px;
+            line-height: 0;
+            margin: 21px auto 0;
+            width: 30px;
+        }
+    }
+}

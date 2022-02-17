@@ -1,7 +1,6 @@
 import React from "react";
 import "../../styles/main/main.css"
-import LatestStories from "./mainSections/latestStories";
-
+import LatestStories from "./latestStories";
 
 
 function Main() {

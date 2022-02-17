@@ -15,21 +15,21 @@
             width: 25%;
             padding-right: 15px;
 
-            button{
-                margin-right: 10px;
+            .facebookButton{
+                height: 20px;
+                width: auto;
+                margin: 0 10px 10px 0;
             }
-
-            .followUsButtons{
-                .facebookButton{
-                    background-color: white;
-                }
-                .twitterButton{
-                    background-color: white;
-                }
-                .instagramButton{
-                    background-color: white;
-                }
-
+            .twitterButton{
+                height: 20px;
+                width: auto;
+                margin: 0 5px 10px 5px;
+            }
+            .instagramButton{
+                height: 20px;
+                width: auto;
+                margin: 0 0 10px 10px;
+   
             }
         }
     
@@ -53,5 +53,80 @@
         flex-wrap: wrap;
     }
 
-    
+    .countryDesktop{
+        display: none;
+    }
+
+    .flag{
+        height: 24px;
+        width: auto;
+        margin-right: 5px;
+    }
+
+    .countryMobile{
+        display: flex;
+        align-items: center;
+    }
 }
+
+@media only screen and (min-width: 768px) {
+    .footerContainer{
+        padding: 0 20px;
+        
+        .sectionsContainer{
+            color: $color-white;
+            display: flex;
+            flex-wrap: wrap;
+            text-align: left;
+            padding: 33px 0;
+            font-size: 12px;
+        
+            section{
+                width: 25%;
+                padding-right: 15px;
+    
+                button{
+                    margin-right: 10px;
+                }
+    
+                .followUsButtons{
+                    .facebookButton{
+                        background-color: white;
+                    }
+                    .twitterButton{
+                        background-color: white;
+                    }
+                    .instagramButton{
+                        background-color: white;
+                    }
+    
+                }
+            }
+        
+            a{
+                color: $color-white;
+            }
+            
+            h4{
+                margin: 0 0 17px;
+            }
+        
+            li{
+                margin-top: 10px;
+            };
+        
+        }
+        .footerLogo{
+            display: none;
+        }  
+        
+        .countryDesktop{
+            display: flex;
+            align-items: center;
+        }
+
+        .countryMobile{
+            display: none;
+        }
+    }
+  }

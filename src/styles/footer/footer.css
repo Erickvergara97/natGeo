@@ -19,20 +19,22 @@
   padding-right: 15px;
 }
 
-.footerContainer .sectionsContainer section button {
-  margin-right: 10px;
+.footerContainer .sectionsContainer section .facebookButton {
+  height: 20px;
+  width: auto;
+  margin: 0 10px 10px 0;
 }
 
-.footerContainer .sectionsContainer section .followUsButtons .facebookButton {
-  background-color: white;
+.footerContainer .sectionsContainer section .twitterButton {
+  height: 20px;
+  width: auto;
+  margin: 0 5px 10px 5px;
 }
 
-.footerContainer .sectionsContainer section .followUsButtons .twitterButton {
-  background-color: white;
-}
-
-.footerContainer .sectionsContainer section .followUsButtons .instagramButton {
-  background-color: white;
+.footerContainer .sectionsContainer section .instagramButton {
+  height: 20px;
+  width: auto;
+  margin: 0 0 10px 10px;
 }
 
 .footerContainer .sectionsContainer a {
@@ -55,5 +57,80 @@
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+}
+
+.footerContainer .countryDesktop {
+  display: none;
+}
+
+.footerContainer .flag {
+  height: 24px;
+  width: auto;
+  margin-right: 5px;
+}
+
+.footerContainer .countryMobile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .footerContainer {
+    padding: 0 20px;
+  }
+  .footerContainer .sectionsContainer {
+    color: #ffff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    text-align: left;
+    padding: 33px 0;
+    font-size: 12px;
+  }
+  .footerContainer .sectionsContainer section {
+    width: 25%;
+    padding-right: 15px;
+  }
+  .footerContainer .sectionsContainer section button {
+    margin-right: 10px;
+  }
+  .footerContainer .sectionsContainer section .followUsButtons .facebookButton {
+    background-color: white;
+  }
+  .footerContainer .sectionsContainer section .followUsButtons .twitterButton {
+    background-color: white;
+  }
+  .footerContainer .sectionsContainer section .followUsButtons .instagramButton {
+    background-color: white;
+  }
+  .footerContainer .sectionsContainer a {
+    color: #ffff;
+  }
+  .footerContainer .sectionsContainer h4 {
+    margin: 0 0 17px;
+  }
+  .footerContainer .sectionsContainer li {
+    margin-top: 10px;
+  }
+  .footerContainer .footerLogo {
+    display: none;
+  }
+  .footerContainer .countryDesktop {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footerContainer .countryMobile {
+    display: none;
+  }
 }
 /*# sourceMappingURL=footer.css.map */
